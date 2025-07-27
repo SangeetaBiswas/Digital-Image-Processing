@@ -7,6 +7,8 @@
 #--- University of Rajshahi
 #--- Rajshahi-6205, Bangladesh
 #----------------------------------------------------
+# 22.7.2025
+#----------------------------------------------------
 
 #--- Import necessary modules
 import cv2
@@ -22,7 +24,7 @@ def main():
     #--- Matplotlib handle images in RGB order.
     rgb_img = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2RGB)
 
-    #--- Investigate image properties
+    #--- Investigate image's properties
     print(rgb_img.shape, rgb_img.max(), rgb_img.min())
     print(rgb_img[:10, :10, 0])
 
